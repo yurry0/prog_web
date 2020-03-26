@@ -1,0 +1,75 @@
+<html>
+<head></head>
+    <!-- Atividade de CSS no EAD - Yuri Martins -->
+    <title>
+        Entre em Contato
+    </title>
+    <!-- Estilo CSS Interno/Incorporado-->
+    <style>
+        
+        body{
+
+            background-image: linear-gradient(to right,#87CEFA ,#ADD8E6);
+        }
+        ul{
+            text-align: justify;
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            border:3px solid darksalmon ;
+            border-radius: 15px;
+            border-style:solid;
+            margin: 20px;
+            background-color:wheat;
+        }
+        form{
+            font-family:Arial, Helvetica, sans-serif;
+            border:3px solid darksalmon ;
+            border-radius: 15px;
+            border-style:double;
+            margin: 20px;
+            background-color:wheat;
+
+        }
+    </style>
+    <meta charset="utf-8">
+
+</head>
+<body>
+    <!-- Exemplo de CSS Inline -->
+    <h1 style="text-align:center; font-family:Arial, Helvetica, sans-serif; color:dimgray;stroke:black;stroke-width: 1px;" > ENTRE EM CONTATO CONOSCO </h1>
+    <br>
+ <ul>
+    <!-- Icones e Itens da Lista Não Ordenada--> 
+    <li> <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/32/clock-icon.png" alt="Horário"> Horário de Funcionamento: 12h:00 ~ 20h:00</li>
+    <li><img src="http://icons.iconarchive.com/icons/martz90/circle/32/phone-icon.png" alt="Fone">Fones: (00)0000-0000  </li>
+    <li><img src="http://icons.iconarchive.com/icons/dtafalonso/android-l/32/WhatsApp-icon.png" alt="Zapzap">Whatsapp:(00)90000-0000 </li>
+    <li><img src="http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/32/Other-Mail-Metro-icon.png" alt="Email">abcdef@abcdef.gfd</li>
+    <li><img src="http://icons.iconarchive.com/icons/dtafalonso/android-lollipop/32/Maps-icon.png" alt="Mapa">Endereço: Rua A, Número 0, Cidade Nada</li>
+        
+ </ul>
+<br>
+<hr>
+<!-- Formulário com CSS Inline -->
+<h2 style="text-align:center;font-family: Arial, Helvetica, sans-serif;"> Formulário para Contato</h2>
+<form align="center" name="contato" action="mailto:abcdef@abcdef.gfd" enctype="text/plain" method="POST">
+    <label for="Nome">Nome: </label> <br>
+    <input type="text" name="nome" id="nome" size="60" placeholder="Digite o seu nome" required> <br> <br>
+    <label for="Email">Email: </label> <br>
+    <input type="email" name="email" id="email" size="60" placeholder="Digite um E-Mail válido" required> <br> <br>
+    <label for="Fone">Número de Contato: </label> <br>
+    <input type="tel" name="telefone" id="fone" size="60" placeholder="Número de contato"> <br> <br>
+    <br>
+    
+    <label for="mensagem">Mande uma mensagem para a gente!</label><br>
+
+    <textarea name="mensagem" id="mensagem" rows="5" cols="80" placeholder="Digite sua mensagem aqui."></textarea>   
+<br>
+<br>
+
+    <input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar Campos">
+<br>
+</form>
+    
+</body> 
+</html>
